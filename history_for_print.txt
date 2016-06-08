@@ -1,0 +1,60 @@
+
+   				  git push -u origin test1 # hago un push y la primera vez el -u para crear el branch en remoto
+   				  git remote -v  #verifica
+   				  git branch -a	#verifica
+   				  git diff #vemos diferencia
+   				  git status
+   				  git add -A #hacemus  un add de todos
+   88  git add -A
+   89  git status
+   90  git checkout -- README.md
+   91  git status
+   92  git add -A
+   93  git commit m "cambio 1"
+   94  git commit -m "cambio 1"
+   95  git pull oringin test1
+   96  git pull origin test1
+   97  git push origin master
+   98  git push origin test1
+   99  git branch -a
+  				  git checkout master #vuelvo a master
+  				  git pull origin master # me pongo en el pool de master
+  				  git merge test1 #mergea con lo que esta en test
+  				  git push origin master # pushea a master
+  				  git branch --merge #mergea
+  				  git branch -d test1 #borray
+  107  git branch -a
+  				  git push origin --delete test1 # borro afuera
+  109* git push test1
+  110  git branch -a
+  111  git branch -d test1
+  112  git branch test2
+  113  git push branch test2
+  114  git push -u origin test2
+  115  git branch -d test2
+  116  git branch -a
+  				  git checkout -b test2 origin/test2 #creo un brach y lo adjunto al remoto
+  118  git pull
+  119  ls
+  120  git status
+  121  git push
+  122  git commit -m "comit"
+  123  git add --test2.txtx
+  124  git add -- test2.txtx
+  125  git commit -m "comit"
+  
+  127  git branch -d test2
+  128  git checkout master
+  129  git branch -d test2
+  130  git branch -a
+  131  git branch -d test2
+  132  git branch -b test2
+  133  git checkout -b test2
+  134  git push
+  135  git push
+  136  git status
+  				git branch -u origin/test2 # tengo el brach creado y lo admunto
+  138  git push
+  139  git pull
+  140  git push
+  141  history > history_for_print.txt
