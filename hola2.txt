@@ -1,0 +1,3 @@
+git log --oneline
+git push origin test2
+git checkout bbc0a62 -- hola2.txt
